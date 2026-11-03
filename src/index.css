@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #efeae2;
+  color: #1b1714;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.live header,
+.live aside {
+  display: none !important;
+}
+
+.live .stage-wrap {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d1c6;
+  border-radius: 99px;
+}
